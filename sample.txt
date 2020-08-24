@@ -2,3 +2,4 @@
 add 把變更錄入索引中
 commit 记录索引的状态
 pull 取得远端数据库的内容
+git checkout -b <branch-name> 创建并切换到新分支
