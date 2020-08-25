@@ -15,9 +15,7 @@ git tag 查看标签
 git tag -a <tagname> 添加标签，并打开vim输入注解
 git tag -am "注解" <tagname> 添加标签，同时添加注解
 git tag -n 查看标签
-<<<<<<< HEAD
-git tag -d <tagname> 删除标签
-=======
 git tag -d <tagname> 删除标签
 -----git tag----
->>>>>>> master
+
+git commit --amend 修改最近一次添加到索引的内容
