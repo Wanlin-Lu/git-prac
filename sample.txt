@@ -18,4 +18,5 @@ git tag -n 查看标签
 git tag -d <tagname> 删除标签
 -----git tag----
 
-git commit --amend 修改最近一次添加到索引的内容
+git commit --amend 修改最近一次添加到索引的内容。
+git revert HEAD 添加revert说明
