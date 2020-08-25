@@ -2,15 +2,22 @@
 add 把變更錄入索引中
 commit 记录索引的状态
 pull 取得远端数据库的内容
+
 git branch <branch-name> 创建分支
 git checkout <branch-name> 切换分支
 git checkout -b <branch-name> 创建并切换到新分支
 git branch 查看分支状态
 git branch -d <branch-name> 删除分支
 git rebase <branch-name> 变基合并
+
 git tag <tagname> 添加标签
 git tag 查看标签
 git tag -a <tagname> 添加标签，并打开vim输入注解
 git tag -am "注解" <tagname> 添加标签，同时添加注解
 git tag -n 查看标签
+<<<<<<< HEAD
 git tag -d <tagname> 删除标签
+=======
+git tag -d <tagname> 删除标签
+-----git tag----
+>>>>>>> master
