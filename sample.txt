@@ -10,3 +10,5 @@ git branch -d <branch-name> 删除分支
 git rebase <branch-name> 变基合并
 git tag <tagname> 添加标签
 git tag 查看标签
+git tag -a <tagname> 添加标签，并打开vim输入注解
+git tag -am "注解" <tagname> 添加标签，同时添加注解
