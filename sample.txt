@@ -24,3 +24,5 @@ git reset --hard soft mixed 取消最近的提交
 git reset --hard HEAD~~
 git reset --hard HEAD~2 取消最近两次提交
 git reset --hard ORIG_HEAD 如果reset出问题，还原到reset之前的状态
+
+git cherry-pick <hash-commit-number> 摘樱桃。
