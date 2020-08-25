@@ -35,3 +35,4 @@ git rebase -i HEAD~~ 修改最近倒数第二次的提交 edit
 这是rebase最后一次提交
 
 git merge --squash i2 use this merge squashed i2
+先切换到master分支再操作
