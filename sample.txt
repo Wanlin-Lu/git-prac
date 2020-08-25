@@ -37,4 +37,4 @@ git rebase -i HEAD~~ 修改最近倒数第二次的提交 edit
 git merge --squash i2 use this merge squashed i2
 先切换到master分支再操作
 
-切换到master 之后所添加
+切换到master 之后所添加,《这里处理冲突，将要提交》
