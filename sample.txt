@@ -33,3 +33,5 @@ git rebase -i HEAD~~合并最近的两次提交，第一次，这是第二次squ
 git rebase -i HEAD~~ 修改最近倒数第二次的提交 edit, 《后添加内容》
 git rebase -i HEAD~~ 修改最近倒数第二次的提交 edit
 这是rebase最后一次提交
+
+git merge --squash i2 use this merge squashed i2
