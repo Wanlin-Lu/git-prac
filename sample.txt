@@ -27,4 +27,5 @@ git reset --hard ORIG_HEAD 如果reset出问题，还原到reset之前的状态
 -----git reset---git revert---git commit --amend---
 
 git cherry-pick <hash-commit-number> 摘樱桃。《处理冲突后添加》
-git rebase -i HEAD~~合并最近的两次提交，第一次，这是第二次
+git rebase -i HEAD~~合并最近的两次提交，第一次，这是第二次squash
+git rebase -i HEAD~~ 修改最近倒数第二次的提交 edit, 《后添加内容》
