@@ -38,3 +38,6 @@ git merge --squash i2 use this merge squashed i2
 先切换到master分支再操作
 
 切换到master 之后所添加,《这里处理冲突，将要提交》
+
+git work flow:
+master<--hotfix|release-->develop<-->feature
