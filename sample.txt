@@ -44,4 +44,5 @@ master<--hotfix|release-->develop<-->feature
 
 master and develop are main branches, hold for whole project life;
 
+features are branched from develop, are mainly working branch; delete when useless.
 
